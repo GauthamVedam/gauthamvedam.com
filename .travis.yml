@@ -6,8 +6,6 @@ script:
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY
-  on:
-    branch: main
   secret_access_key: $AWS_SECRET_KEY
   bucket: "gauthamvedam.com"
   region: us-east-2
